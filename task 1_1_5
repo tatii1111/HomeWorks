@@ -1,0 +1,17 @@
+using System;
+using System.Linq;
+
+namespace Task_1_1_5;
+
+public static class Program
+{
+    public static void Main()
+    {
+        Console.WriteLine("Введите длину в метрах: ");
+        double l = double.Parse(Console.ReadLine());
+        double lr = Math.Ceiling(l);
+        int r = (int)lr;
+        Console.WriteLine("Округленная длина: " + r);
+
+    }
+}
