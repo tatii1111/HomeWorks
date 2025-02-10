@@ -1,7 +1,7 @@
 using System;
 using System.Linq;
 
-namespace Task_1_1_2;
+namespace Task1_1_2;
 
 public static class Program
 {
